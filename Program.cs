@@ -10,6 +10,8 @@ namespace MakeupStore
     {
         static void Main(string[] args)
         {
+            var store = new Store();
+            store.Name = "Sephora";
         }
     }
 }
